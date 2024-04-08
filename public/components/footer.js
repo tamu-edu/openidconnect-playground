@@ -15,21 +15,6 @@ const Footer = () => {
 
   return (
     <div>
-      <div className="bottom-callout text-center theme-dark">
-        <img
-          src="//cdn.auth0.com/quantum-assets/dist/1.0.4/logos/auth0/auth0-lockup-en-ondark.svg"
-          width="160"
-          role="presentation"
-        />
-        <p>The OIDC playground is brought to you by Auth0.</p>
-        <p>
-          A cloud service, APIs and tools that eliminate the friction of
-          identity for your applications and APIs.
-        </p>
-        <a target="_blank" rel="noreferrer noopener" href="https://auth0.com/signup/?utm_source=openidconnect.net&utm_medium=microsites&utm_campaign=devn_signup" className="btn btn-lg btn-success">
-          {"Try Auth0 for Free"}
-        </a>
-      </div>
       <footer className="main-footer">
         <div className="main-footer-container">
           <div className="privacy-links-container">
